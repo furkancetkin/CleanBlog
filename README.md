@@ -1,2 +1,2 @@
 # CleanBlog
- Clean Blog for homework of patikadev Nodejs course
+ Clean Blog App for homework of patika.dev Node.js course
