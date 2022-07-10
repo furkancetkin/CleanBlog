@@ -17,6 +17,11 @@
             <span class="meta">Posted by
               <a href="#"><%= post.author %></a>
               <%= post.dateCreated %></span>
+              <div style="display: flex; justify-content: space-between; margin-top: 40px;">
+
+                <a href="/posts/edit/<%= post._id %>"">Update Post</a>
+                <a href="/posts/<%= post._id %>?_method=DELETE" onclick="return confirm('ARE YOU SURE?')">Delete Post</a>
+              </div>
           </div>
         </div>
       </div>
